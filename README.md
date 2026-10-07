@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/banner.jpg" alt="Hack for Humanity: Miami - Build what Miami needs next" width="100%">
+  <img width="1774" height="887" alt="image" src="https://github.com/user-attachments/assets/1855c9e9-9e02-44eb-807d-7cf8eb3a3cb4" />
 </p>
 
 # Hack for Humanity: Miami
