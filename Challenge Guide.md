@@ -33,7 +33,8 @@ Miami lives with four forces - water, air, land and fire - and each one lands ha
 
 Start from a person, not a technology: "construction crews in Brickell on a heat-advisory day" beats "a heat app." Climate disaster readiness can cut across all four forces.
 
-![Four forces, one city: Water, Air, Land and Fire, with the problems under each](assets/four-forces.png)
+<img width="1344" height="748" alt="four-forces" src="https://github.com/user-attachments/assets/691594b8-ff39-4a59-a8cc-549af9ffdc2a" />
+
 
 Each force lists problems worth solving; the build ideas below show where to start.
 
