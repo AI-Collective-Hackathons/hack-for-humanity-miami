@@ -1,14 +1,24 @@
 # Hack for Humanity Miami: Challenge Guide
 
-Oct 6, 2026 · @Aman
+Oct 9, 2026 · @Aman
 
-Build what Miami needs next. On Saturday, Oct 10, 2026, 10 AM to 5 PM at The LAB Miami, you'll pick one of four challenges, build for nearly five hours, and demo a working answer to a real Miami problem.
+Build what Miami needs next. On Saturday, Oct 10, 2026, 10 AM to 5 PM at The LAB Miami, you'll build for nearly five hours, demo a working answer to a real Miami problem, and compete in three challenges at once.
 
-Hack for Humanity is [The AI Collective's global civic hackathon](https://fortune.com/press-releases/ai-collective-hack-for-humanity-global-civic-hackathon-2026-08-17/), running in 120 chapters across 50 countries this fall. Miami's edition is also an [MLH Hacktoberfest](https://hacktoberfest-handbook.mlh.com/) Hack Day, so open-source AI gets its own prize.
+Hack for Humanity is [The AI Collective's global civic hackathon](https://fortune.com/press-releases/ai-collective-hack-for-humanity-global-civic-hackathon-2026-08-17/), running in 120 chapters across 50 countries this fall. Miami's edition is also an [MLH Hacktoberfest](https://hacktoberfest-handbook.mlh.com/) Hack Day, so two MLH challenges run alongside our Build for Miami theme: Best Open-Source AI Project and Best Use of Gemma 4.
 
-## The four challenges
+## The three challenges
 
-Pick one track as your primary when you submit. Every project can also compete for the MLH Best Open-Source AI Project prize.
+Every team enters **Build for Miami** by picking one of its four tracks. The same project can also enter **Best Open-Source AI Project** and **Best Use of Gemma 4** if it meets their requirements, so one build can win in all three.
+
+| Challenge | What it rewards | Prize |
+| --- | --- | --- |
+| **1. Build for Miami** (theme challenge, 4 tracks) | The strongest answer to a real Miami problem, scored on the judging rubric below | Grand Champion and four Track Champions |
+| **2. Best Open-Source AI Project** (MLH Hacktoberfest) | Open-source or open-weight AI as an important part of how the project works | Exclusive Hacktoberfest 2026 Winner DEV Badge & MLH Swag Bag |
+| **3. Best Use of Gemma 4** (Google DeepMind) | The most compelling build with Gemma 4 through the Gemini API | MLH partner prize |
+
+## Challenge 1 - Build for Miami
+
+Our theme challenge: pick one of four tracks and build for the people who live here. Every team enters with one primary track.
 
 | Track | The question | You might build |
 | --- | --- | --- |
@@ -17,15 +27,13 @@ Pick one track as your primary when you submit. Every project can also compete f
 | **03 Brain Gain** | How does Miami keep the talent it attracts? | Career pathway navigators, AI reskilling coaches, newcomer onboarding guides |
 | **04 Data to Action** | What does the data say, and what should Miami do about it? | Dashboards, maps, alerts or agents built on open city data |
 
-**City partner challenge:** a public-sector partner may add a challenge and datasets. Details drop before Oct 10, and using them is always optional.
-
-## Track 01 - Four Forces, One City
+### Track 01 - Four Forces, One City
 
 Miami lives with four forces - water, air, land and fire - and each one lands hardest on the neighbors with the fewest options. Pick one force, or combine them, and build for the people living with it.
 
 Start from a person, not a technology: "construction crews in Brickell on a heat-advisory day" beats "a heat app." Climate disaster readiness can cut across all four forces.
 
-&#91;embedded content: Track 01 · four forces, one city\]
+![Four forces, one city: Water, Air, Land and Fire, with the problems under each](assets/four-forces.png)
 
 Each force lists problems worth solving; the build ideas below show where to start.
 
@@ -44,7 +52,7 @@ Each force lists problems worth solving; the build ideas below show where to sta
 - Ground it in Miami: local data, real neighborhoods, and the languages people here speak.
 - Show the moment of use: who opens it, when, and what they do next.
 
-## Track 02 - Wild Miami
+### Track 02 - Wild Miami
 
 Miami shares its streets with iguanas, ducks, chickens and Everglades wildlife, and too many of them end up hurt, lost or hit by cars. Build tools that protect animals and the people around them.
 
@@ -62,7 +70,7 @@ Miami shares its streets with iguanas, ducks, chickens and Everglades wildlife, 
 - Know who acts on your output (a rescue group, animal services or a resident) and design that handoff.
 - Public health counts: projects that reduce human-wildlife conflict are in scope.
 
-## Track 03 - Brain Gain
+### Track 03 - Brain Gain
 
 Miami attracts talent; keeping it is the hard part. Build tools that help people grow a career here and stay. This track ties into Hack for Humanity's [global themes](https://fortune.com/press-releases/ai-collective-hack-for-humanity-global-civic-hackathon-2026-08-17/): job displacement, technical literacy and accessibility.
 
@@ -80,7 +88,7 @@ Miami attracts talent; keeping it is the hard part. Build tools that help people
 - Show what would make them stay, and how your tool moves that needle.
 - Skip generic job boards: the value is in Miami-specific matching, guidance or community.
 
-## Track 04 - Data to Action
+### Track 04 - Data to Action
 
 Turn data into a decision: find one insight Miami can act on, make it visible, and show the action it unlocks. You don't need a full app - a sharp analysis, a clear visual and a recommended action is a complete submission.
 
@@ -95,10 +103,41 @@ Turn data into a decision: find one insight Miami can act on, make it visible, a
 **Recommended tools** (optional - use what you know)
 
 - **Snowflake** - the [CoCo AI coding agent](https://docs.snowflake.com/en/user-guide/cortex-code/cortex-code) for exploring data and writing queries, plus free [Marketplace](https://docs.snowflake.com/en/collaboration/consumer-listings-exploring) and [sample](https://docs.snowflake.com/en/user-guide/sample-data) datasets ([free trial](https://signup.snowflake.com/cortex-code/)).
-- **Gemini API** - including [Gemma 4](https://mlh.link/gemma), Google's open-weight model, which also counts toward the open-source AI prize.
+- **Gemini API** - including [Gemma 4](https://mlh.link/gemma), Google's open-weight model, which can also enter you in Best Use of Gemma 4 and Best Open-Source AI Project.
 - **MCP servers and agents** that let people question data in plain language.
 
 Any topic works: flooding, wildlife, housing, talent. Cite every dataset in your README. City partner datasets, if they land, are optional.
+
+## Challenge 2 - Best Open-Source AI Project
+
+**Prize: Exclusive Hacktoberfest 2026 Winner DEV Badge & MLH Swag Bag** (MLH Hacktoberfest)
+
+Build an original project that uses open-source or open-weight AI as an important part of how it works. Teams could create an agent skill, build with an open-weight large or small language model, or build or adapt an open-source model harness. These are examples within one challenge, and teams may combine them.
+
+**Requirements**
+
+- Open-source or open-weight AI must be an important part of the project.
+- The project must be published in a public GitHub repository and use an open-source license.
+- An agent skill must comply with the [Agent Skill Open Standard](https://agentskills.io/).
+- A model-harness entry must include an original implementation or meaningful changes to an existing open-source harness.
+
+**What strong entries show:** substantial technical work, clear value for users, a working demo, and source code, licensing and model details judges can verify. Name the model and link its license or terms in your README ([MLH rules](https://hacktoberfest-handbook.mlh.com/fest-planning-guide/open-source-prize-categories)).
+
+## Challenge 3 - Best Use of Gemma 4
+
+**Presented by Google DeepMind** · Prize: MLH partner prize
+
+It's time to see how much you can build with a lightweight, open model. Gemma 4 packs multimodal intelligence into an open-weights model that you can access through the Gemini API. So, what can Gemma 4 bring to your project?
+
+- **Multimodal Experience:** Work with text and images to create an assistant that understands more of what users share.
+- **Focused AI Tools:** Build a focused AI tool for learning, creativity, productivity, or your community.
+- **Rapid Prototyping:** Experiment with an open model while using the Gemini API to move quickly from an idea to a working prototype.
+
+Bring your idea to life… what will you build with Gemma 4 today?
+
+**To qualify:** use a Gemma 4 model through the Gemini API, name the model in your README, and show the integration in your code and demo. Gemma 4 is open-weight, so the same project can also enter Best Open-Source AI Project if it meets those requirements.
+
+**Get started:** [Gemma 4 resources](https://mlh.link/gemma) · [Quickstart](https://mlh.link/gemma-quickstart) · [API docs](https://mlh.link/gemma-docs) · [Beginner guide](https://mlh.link/gemma-beginnerguide)
 
 ## Build requirements
 
@@ -120,7 +159,7 @@ Build it on the day, ship it in public, and demo it live.
 **Open source**
 
 - Your code lives in a public GitHub repo with an open-source license (MIT or Apache-2.0 work well) and stays public after the event to remain prize-eligible.
-- For the [MLH Best Open-Source AI Project](https://hacktoberfest-handbook.mlh.com/fest-planning-guide/open-source-prize-categories) prize, open-source or open-weight AI must be a core part of the project: a Gemma, Llama, Mistral or Qwen model, an open-source model harness, or an agent skill built to the [Agent Skills standard](https://agentskills.io/). Name the model and link its license in your README.
+- Entering Best Open-Source AI Project or Best Use of Gemma 4? Meet their requirements above, and name every model you use in your README.
 
 **Submission checklist** (in OrganizerHQ, by 3:45 PM)
 
@@ -128,7 +167,7 @@ Build it on the day, ship it in public, and demo it live.
 - [ ] Project name and a short description: the problem, who it helps, how it works
 - [ ] Public GitHub repo link with an open-source license
 - [ ] Technologies used, including AI models
-- [ ] Challenge track selected
+- [ ] Build for Miami track selected, plus any MLH challenges you qualify for
 - [ ] Demo URL or video (optional)
 - [ ] README with your track, data sources, models used, how to run it, and team members
 
@@ -143,7 +182,7 @@ Build it on the day, ship it in public, and demo it live.
 
 ## Judging rubric
 
-Judges score every demo from 1 to 5 on five criteria, and the weighted total decides the winners. Community impact carries the most weight, because that's the point of the day.
+Build for Miami is scored on this rubric: judges score every demo from 1 to 5 on five criteria, and the weighted total decides the winners. Community impact carries the most weight, because that's the point of the day.
 
 | Criterion | Weight | What judges look for |
 | --- | --- | --- |
@@ -155,21 +194,21 @@ Judges score every demo from 1 to 5 on five criteria, and the weighted total dec
 
 **How winners are picked**
 
-- **Grand Champion:** the highest weighted score overall.
-- **Track Champions:** the highest score in each track, excluding the Grand Champion, so five different teams win.
-- **MLH Best Open-Source AI Project:** judged separately on MLH's criteria (open-source or open-weight AI at the core, public repo and license, a working demo) and stackable with any other prize.
+- **Grand Champion (Build for Miami):** the highest weighted score overall.
+- **Track Champions (Build for Miami):** the highest score in each track, excluding the Grand Champion, so five different teams win.
+- **Best Open-Source AI Project and Best Use of Gemma 4:** judged separately on their own requirements, and stackable with any Build for Miami prize.
 - **Ties** go to the higher Community impact score. Organizers verify submissions before demos, and rule or Code of Conduct breaks can mean disqualification.
 
 ## Prize categories
 
-Five teams take home Hack for Humanity titles, one team wins MLH's open-source AI prize, and every builder leaves with swag.
+Build for Miami crowns five teams, each MLH challenge crowns its own winner, and every builder leaves with swag.
 
 | Prize | Who wins | What you get |
 | --- | --- | --- |
-| **Grand Champion** | Highest overall score across all tracks | Arduino boards for the team |
-| **Track Champion** (x4) | Top team in each track | MLH Hacktoberfest swag and a spotlight on our community channels |
-| **[MLH Best Open-Source AI Project](https://hacktoberfest-handbook.mlh.com/fest-planning-guide/open-source-prize-categories)** | Best project with open-source or open-weight AI at its core | A DEV Badge for every team member, plus MLH+DEV swag while supplies last |
-| **City Partner Challenge** | Announcing soon | Details before Oct 10 |
+| **Build for Miami: Grand Champion** | Highest overall score across all tracks | Arduino boards for the team |
+| **Build for Miami: Track Champion** (x4) | Top team in each track | MLH Hacktoberfest swag and a spotlight on our community channels |
+| **[Best Open-Source AI Project](https://hacktoberfest-handbook.mlh.com/fest-planning-guide/open-source-prize-categories)** | Best project with open-source or open-weight AI as an important part of how it works | Exclusive Hacktoberfest 2026 Winner DEV Badge & MLH Swag Bag |
+| **[Best Use of Gemma 4](https://mlh.link/gemma)** | Best build with Gemma 4 through the Gemini API | MLH partner prize |
 | **Every builder** | Everyone who checks in | Hacktoberfest swag (T-shirts, stickers, postcards while supplies last), plus an "I Demoed" sticker when your team presents |
 
 All winning teams may be invited to join a grant-funded project to commercialize what they built, and may be showcased in The AI Collective's global newsletter to 300k+ subscribers ([event page](https://luma.com/h4h-miami)).
